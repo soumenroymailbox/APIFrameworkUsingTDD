@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14642" started-at="2022-04-14T09:48:27 IST" finished-at="2022-04-14T09:48:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14642" started-at="2022-04-14T09:48:27 IST" finished-at="2022-04-14T09:48:42 IST">
+      <class name="testLibrary.TC03_Post_Request1">
+        <test-method status="PASS" signature="getBooksDetails(java.lang.String,java.lang.String)[pri:0, instance:testLibrary.TC03_Post_Request1@5bfbf16f]" name="getBooksDetails" duration-ms="1646" started-at="2022-04-14T09:48:38 IST" data-provider="empDataProvider3" finished-at="2022-04-14T09:48:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SRoy1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AbCD@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooksDetails -->
+        <test-method status="PASS" signature="getBooksDetails(java.lang.String,java.lang.String)[pri:0, instance:testLibrary.TC03_Post_Request1@5bfbf16f]" name="getBooksDetails" duration-ms="1607" started-at="2022-04-14T09:48:40 IST" data-provider="empDataProvider3" finished-at="2022-04-14T09:48:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ARoy1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WxyZ@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooksDetails -->
+      </class> <!-- testLibrary.TC03_Post_Request1 -->
+      <class name="testLibrary.TC02_Get_Request2">
+        <test-method status="PASS" signature="getBooksDetails()[pri:0, instance:testLibrary.TC02_Get_Request2@59906517]" name="getBooksDetails" is-config="true" duration-ms="4517" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooksDetails -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:1, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkResponseBody" duration-ms="17" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:2, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkStatusCode" duration-ms="2" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:3, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkStatusLine" duration-ms="1" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:4, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkResponseTime" duration-ms="1" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkContentType()[pri:5, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkContentType" duration-ms="1" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkContentLength()[pri:6, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkContentLength" duration-ms="3" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkServerType()[pri:7, instance:testLibrary.TC02_Get_Request2@59906517]" name="checkServerType" duration-ms="2" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="printAllHeaders()[pri:8, instance:testLibrary.TC02_Get_Request2@59906517]" name="printAllHeaders" duration-ms="1" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllHeaders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testLibrary.TC02_Get_Request2@59906517]" name="tearDown" is-config="true" duration-ms="3" started-at="2022-04-14T09:48:38 IST" finished-at="2022-04-14T09:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testLibrary.TC02_Get_Request2 -->
+      <class name="testLibrary.TC01_Get_Request1">
+        <test-method status="PASS" signature="getBooksDetails()[pri:0, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="getBooksDetails" is-config="true" duration-ms="6543" started-at="2022-04-14T09:48:27 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooksDetails -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:1, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkResponseBody" duration-ms="99" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:2, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkStatusCode" duration-ms="2" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:3, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkStatusLine" duration-ms="3" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:4, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkResponseTime" duration-ms="3" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkContentType()[pri:5, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkContentType" duration-ms="4" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkContentLength()[pri:6, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkContentLength" duration-ms="11" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkServerType()[pri:7, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="checkServerType" duration-ms="2" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="printAllHeaders()[pri:8, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="printAllHeaders" duration-ms="2" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllHeaders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testLibrary.TC01_Get_Request1@29b5cd00]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-04-14T09:48:34 IST" finished-at="2022-04-14T09:48:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testLibrary.TC01_Get_Request1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
